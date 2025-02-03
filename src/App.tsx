@@ -17,6 +17,7 @@ import { appSt } from "./style.css";
 import { ThxLayout } from "./thx/ThxLayout";
 import { Gap } from "@alfalab/core-components/gap";
 import { useState } from "react";
+import { sendDataToGA } from "./utils/events.ts";
 
 interface Product {
   title: string;
@@ -86,7 +87,8 @@ export const App = () => {
 
   const submit = () => {
     setLoading(true);
-    Promise.resolve().then(() => {
+
+    sendDataToGA({ plan_name: "Личная 399 Р/мес" }).then(() => {
       LS.setItem(LSKeys.ShowThx, true);
       setThx(true);
       setLoading(false);

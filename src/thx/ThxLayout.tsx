@@ -21,7 +21,7 @@ export const ThxLayout = () => {
           defaultMargins
           weight="bold"
         >
-          Спасибо за участие
+          Только тссс
         </Typography.TitleResponsive>
         <Typography.Text tag="p" view="primary-medium">
           Вы поучаствовали в очень важном исследовании, которое поможет создать

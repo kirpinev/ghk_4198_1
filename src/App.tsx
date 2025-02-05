@@ -113,7 +113,7 @@ export const App = () => {
             Альфа-Смарт
           </Typography.TitleResponsive>
           <Typography.Text view="primary-medium" color="secondary">
-            {`Получите доступ к привилегиям за\u00A0399₽\u00A0в\u00A0месяц.`}
+            {`Получите доступ к привилегиям за\u00A0399₽\u00A0в\u00A0месяц`}
           </Typography.Text>
         </div>
 
